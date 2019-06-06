@@ -93,14 +93,16 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: .75em;
   height: 100%;
 }
 
 .wrapper {
   display: flex;
   justify-content: space-between;
-  font-weight: 700;
+  font-weight: 400;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .div-1, .div-2, .div-3 {
@@ -113,6 +115,11 @@ body {
   font-size: 1.6em;
   background-color: #f16059;
   height: 300px;
+  padding: 0px 30px;
+}
+
+.div-1, .div-2 {
+  border-right: 2px solid white;
 }
 
 /* ==========================================================================

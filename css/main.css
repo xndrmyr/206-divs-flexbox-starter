@@ -90,11 +90,27 @@ html {
   height: 100%;
 }
 
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.75em;
+}
+
+h1, h2, footer {
+  padding: 20px 0px;
+}
+
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'istok web', sans-serif;
   padding: 2em;
   font-size: .75em;
   height: 100%;
+  background-color: #FAFDF6;
+  color: #2E2E2D;
 }
 
 .wrapper {
@@ -110,16 +126,14 @@ body {
   width: 30%;
   justify-content: center;
   align-items: center;
-  color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
   height: 300px;
   padding: 0px 30px;
 }
 
 .div-1, .div-2 {
-  border-right: 2px solid white;
+  border-right: 2px solid #2e2e2d;
 }
 
 /* ==========================================================================
